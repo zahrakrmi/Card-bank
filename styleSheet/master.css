@@ -1,0 +1,114 @@
+
+*{
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d66ff0;
+}
+
+.toggle{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #8b15ab;
+    top: 5%;
+    left: 5%;
+    position: fixed;
+    z-index: 100;
+    >span{
+        display: flex;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #8b15ab;
+        transition: 1s;
+    }
+    }
+.box1{
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px #d57eeb79;
+    >h1{
+        font-size: 25px;
+        color: white;
+        padding: 10px ;
+        font-family: "Alike Angular", serif;
+        text-transform: uppercase;
+    }
+    >h3{
+        font-size: 15px;
+        color: white;
+        padding-top:30px;
+        margin-left: 10px;
+        font-family: "Alike Angular", serif;
+        text-transform: uppercase;
+     
+    }
+    >h2{
+        margin-left: 10px;
+        color: white;
+        font-family: "Alike Angular", serif;
+    }
+    >h4{
+        font-size: 15px;
+        color: white;
+        padding:20px 10px;
+        font-family: "Alike Angular", serif;
+        text-transform: uppercase;
+    }
+    h5{
+        font-size: 15px;
+        color: white;
+        font-family: "Alike Angular", serif;
+        text-transform: uppercase;
+        margin-top: -32px;
+        margin-left: 150px;
+    }
+    >input{
+        width: 80px;
+        height: 25px;
+        margin-left: 10px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.43);
+      
+    }
+}
+.box2{
+    position: absolute;
+    top: 32%;
+    left: 48%;
+    >input{
+        width: 50px;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.43);
+        margin-left: 5px;
+   
+    }
+    >span{
+        position: absolute;
+        top: 25%;
+        left: 32%;
+        font-size: 20px;
+    }
+
+}
+.left{
+    transform: translateX(50px);
+    background-color: #d57eeb79 !important;
+}
+.mycolor{
+    background-color: #d57eeb79 !important;
+}
